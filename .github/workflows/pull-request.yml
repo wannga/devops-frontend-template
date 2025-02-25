@@ -25,4 +25,3 @@ jobs:
           version: v1.60
       - name: "Run Tests"
         run: go test -v ./...
-
