@@ -31,5 +31,5 @@ COPY --from=builder /app/node_modules ./node_modules
 
 ENV NODE_ENV=production
 
-EXPOSE 3000
+EXPOSE $PORT
 CMD ["pnpm", "start"]
